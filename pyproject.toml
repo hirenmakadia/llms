@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llms"
+version = "0.1.0"
+description = "Repo reproduces the widely used llms"
+authors = ["Hiren Makadia <hiren.makadia@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
